@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Site</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Video Source -->
+  <!-- https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
+  <section id="showcase" class="showcase">
+    <header>
+      <a href="./index.html"><h2 id="logo" class="logo">Travel</h2></a>
+      <div class="toggle"></div>
+    </header>
+    <video src="./assets/Pexels Videos 2169880.mp4" muted loop autoplay></video>
+    <div id="overlay" class="overlay"></div>
+    <div id="content" class="content">
+
+        <div id="message">
+            <h1 id="thanks">Thanks for reaching out!</h1>
+            <p id="msg-text">Expect an email shortly with further information.</p>
+            <button id="close-btn">X</button>
+          </div>
+          
+          <form class="form" method="POST" id="contact-form">
+            <div class="form-head">
+              <h1 class="form-title">Contact Us!</h1>
+              <p class="form-instructions">Fill out the form below and we'll reach out to you soon!</p>
+            </div>
+            <div class="form-body">
+              <input required placeholder="First Name" type="text" name="fn" id="fn" class="form-input">
+              <input required placeholder="Last Name" type="text" name="ln" id="ln" class="form-input">
+              <input required placeholder="Name@email.com" type="email" name="email" id="email" class="form-input">
+              <input required placeholder="(555)555-5555" type="tel" name="tel" id="tel" class="form-input">
+              <input required placeholder="Destination" maxlength="50" type="text" name="dest" id="dest" class="form-input">
+              
+            </div>
+            <button type="submit" class="btn" id="contact-submit">Submit</button>
+          </form>
+          
+          <div class="selling-card">
+            <div class="selling-card-head">
+              <h1 class="selling-title">Why book with us?</h1>
+              
+            </div>
+            <ul class="list-group">
+                <li class="list-item">Fast</li>
+                <li class="list-item">Friendly</li>
+                <li class="list-item">Cheap</li>
+              </ul>
+          </div>
+
+        </div>
+        <ul class="social">
+          <li><a href="https://www.facebook.com" target="_blank"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="https://www.instagram.com" target="_blank"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    
+    
+    <script src="./js/contact.js"></script>
+      <script src="./js/main.js"></script>
+    </body>
+    </html>
